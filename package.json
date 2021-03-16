@@ -1,0 +1,26 @@
+{
+  "name": "mochachaiwn21",
+  "version": "1.0.0",
+  "description": "A IT 121 assignment/Demos unit test in mocha and chai",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha || true",
+    "coverage": "nyc npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/253asap/mochaChaiWn21.git"
+  },
+  "author": "Asa White",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/253asap/mochaChaiWn21/issues"
+  },
+  "homepage": "https://github.com/253asap/mochaChaiWn21#readme",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "chai-asserttype": "^1.0.5",
+    "mocha": "^8.3.2",
+    "nyc": "^15.1.0"
+  }
+}
